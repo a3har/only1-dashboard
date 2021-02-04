@@ -1,0 +1,21 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  color: rgba(31, 33, 39, 0.6);
+  cursor: pointer;
+  padding-block: 15px;
+  padding-inline: 2em;
+  border: 5px solid transparent;
+}
+.sidebarOption:hover {
+  background-color: rgba(57, 84, 255, 0.05);
+  border-left: 5px solid #3954ff;
+}
+
+.sidebarOption__icon {
+  margin-right: 10%;
+}
+.sidebarOption > h3 {
+  font-weight: 500;
+  font-size: 15px;
+}

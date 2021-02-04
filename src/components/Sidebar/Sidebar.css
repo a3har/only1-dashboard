@@ -1,0 +1,26 @@
+.sidebar {
+  max-width: 260px;
+  min-width: 200px;
+  background-color: #f7f9fd;
+  height: 100vh;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 30px;
+}
+.sidebar__logo {
+  font-size: 40px;
+}
+.sidebar__header > * {
+  margin: 0 5px;
+}
+
+.sidebar__options {
+  margin-top: 30px;
+}
