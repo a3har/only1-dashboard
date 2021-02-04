@@ -1,0 +1,5 @@
+FROM node:14.15.4
+
+WORKDIR /usr/src
+
+EXPOSE 3000
