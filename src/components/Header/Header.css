@@ -5,7 +5,11 @@
   font-size: 22px;
   padding-inline: 3em;
   margin-top: 55px;
-  max-height: 30px;
+  max-height: 25px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
 }
 
 .header__right > * {
