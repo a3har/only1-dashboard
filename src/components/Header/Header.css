@@ -1,17 +1,11 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 22px;
-  padding-inline: 3em;
+  @apply flex justify-between items-center px-10 pt-1 mb-10 text-xl;
   margin-top: 55px;
-  max-height: 25px;
 }
 .header__right {
-  display: flex;
-  align-items: center;
+  @apply flex items-center;
 }
 
 .header__right > * {
-  margin: 0 10px;
+  @apply mx-4;
 }

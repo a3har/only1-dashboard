@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Card from "./components/Card/Card";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
         <Router>
           <Switch>
             <Route path="/home">
-              <h1>This is home path</h1>
+              <Card />
             </Route>
             <Route path="/">
-              <h1>This is root path</h1>
+              <Card />
             </Route>
           </Switch>
         </Router>
