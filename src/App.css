@@ -5,5 +5,5 @@
   background-color: #fafbfd;
 }
 .app__content {
-  width: 100%;
+  @apply px-10 w-full;
 }

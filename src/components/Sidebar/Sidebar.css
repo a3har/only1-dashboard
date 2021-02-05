@@ -6,13 +6,11 @@
 }
 
 .sidebar__header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @apply flex items-center justify-center mt-9;
   font-size: 28px;
   font-weight: 600;
   padding: 20px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .sidebar__logo {
   font-size: 40px;

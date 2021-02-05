@@ -1,0 +1,11 @@
+.dashboard {
+  @apply grid grid-rows-2 gap-3;
+}
+
+.dashboard__firstrow {
+  @apply grid grid-cols-2;
+}
+
+.dashboard__smallcards {
+  @apply grid grid-cols-2 grid-rows-2 gap-2;
+}

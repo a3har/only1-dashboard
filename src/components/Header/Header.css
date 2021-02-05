@@ -1,5 +1,5 @@
 .header {
-  @apply flex justify-between items-center px-10 pt-1 mb-10 text-xl;
+  @apply flex justify-between items-center pt-1 mb-10 text-xl;
   margin-top: 55px;
 }
 .header__right {
