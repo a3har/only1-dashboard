@@ -1,0 +1,17 @@
+.progress_info {
+  @apply flex items-center justify-between;
+}
+.progress_info__progressbar {
+  @apply h-20 w-20;
+}
+
+.progress_info__quantity {
+  @apply text-xl;
+}
+
+.progress_info__description {
+  @apply text-xs;
+}
+.progress_info__data {
+  @apply flex items-end flex-col justify-center;
+}

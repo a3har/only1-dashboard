@@ -1,3 +1,30 @@
 .card {
-  @apply bg-white rounded-3xl overflow-hidden shadow-md;
+  @apply bg-white rounded-3xl overflow-hidden px-8 py-5;
+  box-shadow: 0px 13px 18px rgba(57, 84, 255, 0.04);
+}
+
+.card__header {
+  @apply flex  items-center justify-between text-sm mb-7;
+}
+
+.card__options {
+  /* display: flex; */
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /* margin: 50px; */
+}
+.card__options:after {
+  content: "•••";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.card__component {
 }
