@@ -4,6 +4,7 @@ import Card from "../../components/Card/Card";
 import CircularProgressInfo from "./CircularProgressInfo/CircularProgressInfo";
 import TaskActivities from "./TaskActivities/TaskActivities";
 import TeamActivities from "./Team Activities/TeamActivities";
+import TeamMemberPerfomance from "./TeamMemberPerformance/TeamMemberPerfomance";
 
 let styles = {
   spanColsThree: { style: "md:col-span-3" },
@@ -62,7 +63,7 @@ function Dashboard() {
         title="Team Member Perfomance"
         style={styles.spanColsFive}
         cardData={{ percentage: 66 }}
-        Component={CircularProgressInfo}
+        Component={TeamMemberPerfomance}
       />
     </div>
   );
