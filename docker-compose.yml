@@ -5,7 +5,8 @@ services:
     volumes:
       - .:/usr/src
     ports:
-      - "3000:3000"
+      - 9005:9005
+      - 3000:3000
     user: $USER
     command: >
       bash -c "npm install && npm run start"
