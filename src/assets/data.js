@@ -21,7 +21,7 @@ const data = [
     email: "eyasminjeo@mail.com",
     rating: 9.1,
     img:
-      "https://thumbs.dreamstime.com/z/blonde-profile-portrait-beautiful-blonde-woman-natural-make-up-beauty-haircare-cosmetics-concept-healthcare-blue-114974938.jpg",
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
   },
   {
     name: "Adrita Khan",
