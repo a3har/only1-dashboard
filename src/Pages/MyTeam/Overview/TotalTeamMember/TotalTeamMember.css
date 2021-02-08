@@ -1,0 +1,16 @@
+.totalteam {
+  background-color: rgba(57, 84, 255, 0.05);
+  @apply p-5;
+}
+
+.totalteam__header {
+}
+
+.totalteam__info {
+  font-size: 3em;
+  @apply flex items-center justify-around mt-3;
+}
+
+.totalteam__chart {
+  @apply h-20 w-20;
+}

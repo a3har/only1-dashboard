@@ -1,0 +1,4 @@
+.overview__contents {
+  /* @apply mx-4 my-6; */
+  @apply px-24 py-8;
+}

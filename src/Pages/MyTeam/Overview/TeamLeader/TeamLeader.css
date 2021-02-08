@@ -1,0 +1,18 @@
+.teamleader {
+  background-color: rgba(57, 84, 255, 0.05);
+  @apply flex items-center justify-center p-5;
+}
+
+.teamleader__image {
+  max-height: 80px;
+  max-width: 80px;
+  @apply rounded-lg overflow-hidden mr-10;
+}
+
+.teamleader__name {
+  font-size: 1.5em;
+}
+
+.teamleader__designation {
+  font-size: 1 em;
+}

@@ -1,0 +1,19 @@
+.myteam {
+  @apply flex items-start;
+}
+
+.myteam__header {
+  border-color: rgba(31, 33, 39, 0.1);
+  @apply col-span-3 border-t-2 mb-6 flex items-center pt-4;
+}
+.myteam__members {
+  flex: 0.6;
+}
+.myteam__allmembers {
+  @apply grid grid-cols-3 gap-5;
+}
+
+.myteam__overview {
+  flex: 0.4;
+  @apply w-full px-4;
+}

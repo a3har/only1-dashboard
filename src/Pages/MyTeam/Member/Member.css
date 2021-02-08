@@ -1,0 +1,30 @@
+.member {
+  @apply relative;
+}
+.member__top {
+  @apply flex flex-col items-center px-8;
+}
+
+.member__image {
+  max-height: 60px;
+  max-width: 60px;
+  @apply rounded overflow-hidden mb-5;
+}
+
+.member__name {
+  font-weight: 500;
+  font-size: 20px;
+}
+.member__email {
+  color: rgba(31, 33, 39, 0.7);
+  font-weight: 400;
+  font-size: 14px;
+  @apply mb-16;
+}
+
+.member__designation {
+  color: #3954ff;
+  font-size: 13px;
+  background-color: rgba(57, 84, 255, 0.03);
+  @apply absolute bottom-0 left-0 h-10 w-full mt-10 flex flex-col justify-center items-center uppercase;
+}
