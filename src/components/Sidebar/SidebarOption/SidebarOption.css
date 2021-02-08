@@ -1,10 +1,11 @@
 .sidebarOption {
-  @apply flex items-center cursor-pointer pl-20 py-5 border-4 border-transparent;
+  padding-left: 3.6rem;
+  @apply flex items-center cursor-pointer py-5 border-4 border-transparent;
   color: rgba(31, 33, 39, 0.6);
 }
 .sidebarOption:hover {
   background-color: rgba(57, 84, 255, 0.05);
-  border-left: 5px solid #3954ff;
+  border-left: 4px solid #3954ff;
 }
 
 .sidebarOption__icon {

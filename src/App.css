@@ -7,6 +7,6 @@
 }
 .app__content {
   position: relative;
-  margin-left: 350px;
-  @apply px-10 pb-10 w-full;
+  margin-left: 250px;
+  @apply px-10 pb-10 w-full flex flex-col;
 }
