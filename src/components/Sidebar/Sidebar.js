@@ -16,8 +16,8 @@ function Sidebar() {
         <span>ONLY1</span>
       </div>
       <div className="sidebar__options">
-        <SidebarOption Icon={SvgDashboard} title="Dashboard" />
-        <SidebarOption Icon={SvgMyTeam} title="My Team" />
+        <SidebarOption Icon={SvgDashboard} title="Dashboard" route="/" />
+        <SidebarOption Icon={SvgMyTeam} title="My Team" route="/team" />
         <SidebarOption Icon={SvgTask} title="Task" />
         <SidebarOption Icon={SvgCalender} title="Calendar" />
         <SidebarOption Icon={SvgReport} title="Report" />

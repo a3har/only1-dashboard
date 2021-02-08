@@ -6,24 +6,20 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import MyTeam from "./Pages/MyTeam/MyTeam";
 function App() {
   return (
-    <div className="app">
-      <Sidebar />
-      <div className="app__content">
-        <Header />
-        <Router>
+    <Router>
+      <div className="app">
+        <Sidebar />
+        <div className="app__content">
+          <Header />
           <Switch>
-            <Route path="/team">
-              <MyTeam />
-            </Route>
-            <Route path="/">
-              <Dashboard />
-            </Route>
+            <Route path="/team" component={MyTeam} />
+            <Route path="/" component={Dashboard} />
           </Switch>
-        </Router>
-      </div>
+        </div>
 
-      {/* React Router */}
-    </div>
+        {/* React Router */}
+      </div>
+    </Router>
   );
 }
 
