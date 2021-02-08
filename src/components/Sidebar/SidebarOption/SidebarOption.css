@@ -1,11 +1,6 @@
 .sidebarOption {
-  display: flex;
-  align-items: center;
+  @apply flex items-center cursor-pointer pl-20 py-5 border-4 border-transparent;
   color: rgba(31, 33, 39, 0.6);
-  cursor: pointer;
-  padding-block: 15px;
-  padding-inline: 2em;
-  border: 5px solid transparent;
 }
 .sidebarOption:hover {
   background-color: rgba(57, 84, 255, 0.05);
@@ -13,7 +8,7 @@
 }
 
 .sidebarOption__icon {
-  margin-right: 10%;
+  @apply mr-5;
 }
 .sidebarOption > h3 {
   font-weight: 500;
