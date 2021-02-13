@@ -10,6 +10,7 @@ function TeamActivities() {
   return (
     <div className="task_activities">
       <Line
+        height={"300px"}
         data={{
           labels: [
             newDate(-4),
@@ -30,6 +31,7 @@ function TeamActivities() {
           ],
         }}
         options={{
+          maintainAspectRatio: false,
           scales: {
             xAxes: [
               {

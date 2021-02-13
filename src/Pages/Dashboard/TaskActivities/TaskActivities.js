@@ -5,6 +5,7 @@ function TaskActivities() {
   return (
     <div className="task_activities">
       <Bar
+        height={"300px"}
         data={{
           labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
           datasets: [
@@ -23,7 +24,7 @@ function TaskActivities() {
           ],
         }}
         options={{
-          maintainAspectRatio: true,
+          maintainAspectRatio: false,
           barValueSpacing: 2,
           scales: {
             yAxes: [

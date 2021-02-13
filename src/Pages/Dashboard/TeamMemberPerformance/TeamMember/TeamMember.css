@@ -1,5 +1,5 @@
 .team_member {
-  @apply flex max-h-16 items-center justify-between;
+  @apply flex max-h-16 items-center justify-between m-2;
 }
 
 .team_member__info {

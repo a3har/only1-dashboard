@@ -7,10 +7,10 @@ import TeamActivities from "./Team Activities/TeamActivities";
 import TeamMemberPerfomance from "./TeamMemberPerformance/TeamMemberPerfomance";
 
 let styles = {
-  spanColsThree: { style: "md:col-span-3" },
-  spanColsFive: { style: "md:col-span-5 row-span-2" },
-  spanColsSix: { style: "md:col-span-6 row-span-2" },
-  spanColsSeven: { style: "md:col-span-7 row-span-2" },
+  spanColsThree: { style: "lg:col-span-3" },
+  spanColsFive: { style: "lg:col-span-5 lg:row-span-2" },
+  spanColsSix: { style: "lg:col-span-6 lg:row-span-2" },
+  spanColsSeven: { style: "lg:col-span-7 lg:row-span-2" },
 };
 function Dashboard() {
   return (

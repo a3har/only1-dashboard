@@ -1,7 +1,7 @@
 .app {
   display: flex;
   align-items: flex-start;
-  height: 100vh;
+  max-height: 100vh;
   overflow-y: auto;
   background-color: #fafbfd;
 }
