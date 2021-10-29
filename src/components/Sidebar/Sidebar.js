@@ -18,10 +18,10 @@ function Sidebar() {
       <div className="sidebar__options">
         <SidebarOption Icon={SvgDashboard} title="Dashboard" route="/" />
         <SidebarOption Icon={SvgMyTeam} title="My Team" route="/team" />
-        <SidebarOption Icon={SvgTask} title="Task" />
-        <SidebarOption Icon={SvgCalender} title="Calendar" />
-        <SidebarOption Icon={SvgReport} title="Report" />
-        <SidebarOption Icon={SvgSettings} title="Settings" />
+        <SidebarOption Icon={SvgTask} title="Task" route="/task" />
+        <SidebarOption Icon={SvgCalender} title="Calendar" route="/calendar" />
+        <SidebarOption Icon={SvgReport} title="Report" route="/report" />
+        <SidebarOption Icon={SvgSettings} title="Settings" route="/settings" />
       </div>
     </div>
   );
