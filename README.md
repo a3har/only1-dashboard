@@ -1,4 +1,4 @@
-# Webloom-Dashboard
+# Only1 Dashboard
 
 ## Development server
 
